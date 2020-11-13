@@ -31,8 +31,8 @@ To set up the dotfiles run the appropriate snippet in the terminal:
 
 | OS | Snippet |
 |:---|:---|
-| macOS | `bash -c "$(curl -LsS https://raw.github.com/alrra/dotfiles/main/src/os/setup.sh)"` |
-| Ubuntu | `bash -c "$(wget -qO - https://raw.github.com/alrra/dotfiles/main/src/os/setup.sh)"` |
+| macOS | `bash -c "$(curl -LsS https://raw.github.com/anchoo2kewl/dotfiles-2/main/src/os/setup.sh)"` |
+| Ubuntu | `bash -c "$(wget -qO - https://raw.github.com/anchoo2kewl/dotfiles-2/main/src/os/setup.sh)"` |
 
 That's it! ✨
 
@@ -182,8 +182,8 @@ The code is available under the [MIT license][license].
 
 <!-- Link labels: -->
 
-[ci badge]: https://github.com/alrra/dotfiles/workflows/test/badge.svg
-[ci link]: https://github.com/alrra/dotfiles/actions
+[ci badge]: https://github.com/anchoo2kewl/dotfiles-2/workflows/test/badge.svg
+[ci link]: https://github.com/anchoo2kewl/dotfiles-2/actions
 [dirs]: src/os/create_directories.sh
 [fork]: https://help.github.com/en/github/getting-started-with-github/fork-a-repo
 [git log macos]: https://cloud.githubusercontent.com/assets/1223565/10560966/e4ec08a6-7523-11e5-8941-4e12f6550a63.png
@@ -198,7 +198,7 @@ The code is available under the [MIT license][license].
 [preferences ubuntu]: src/os/preferences/ubuntu
 [repo]: https://github.com/alrra
 [setup macos]: https://cloud.githubusercontent.com/assets/1223565/19314446/cd89a592-90a2-11e6-948d-9d75247088ba.gif
-[setup script]: https://github.com/alrra/dotfiles/blob/2f53485df6be75d207d4c5c03c265730b416555a/src/os/setup.sh#L3
+[setup script]: https://github.com/anchoo2kewl/dotfiles-2/blob/2f53485df6be75d207d4c5c03c265730b416555a/src/os/setup.sh#L3
 [setup ubuntu]: https://cloud.githubusercontent.com/assets/1223565/19048636/e23e347a-89af-11e6-853c-98616b75b6ae.gif
 [setup]: src/os/setup.sh
 [shell]: src/shell

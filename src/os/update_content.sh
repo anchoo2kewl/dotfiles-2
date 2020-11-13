@@ -7,13 +7,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 main() {
 
-    ssh -T git@github.com &> /dev/null
-
-    if [ $? -ne 1 ]; then
-        ./set_github_ssh_key.sh \
-            || return 1
-    fi
-
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     print_in_purple "\n • Update content\n\n"
