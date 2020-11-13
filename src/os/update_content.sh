@@ -11,18 +11,18 @@ main() {
 
     print_in_purple "\n • Update content\n\n"
 
-    ask_for_confirmation "Do you want to update the content from the 'dotfiles' directory?"
+    # ask_for_confirmation "Do you want to update the content from the 'dotfiles' directory?"
 
-    if answer_is_yes; then
+    # if answer_is_yes; then
 
-        git fetch --all 1> /dev/null \
-            && git reset --hard origin/main 1> /dev/null \
-            && git checkout main &> /dev/null \
-            && git clean -fd 1> /dev/null
+    #     git fetch --all 1> /dev/null \
+    #         && git reset --hard origin/main 1> /dev/null \
+    #         && git checkout main &> /dev/null \
+    #         && git clean -fd 1> /dev/null
 
-        print_result $? "Update content"
+    #     print_result $? "Update content"
 
-    fi
+    # fi
 
 }
 
