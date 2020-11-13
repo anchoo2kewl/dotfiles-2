@@ -24,20 +24,3 @@ if ! package_is_installed "google-chrome-unstable"; then
 fi
 
 install_package "Chrome Canary" "google-chrome-unstable"
-install_package "Chromium" "chromium-browser"
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-printf "\n"
-
-if ! package_is_installed "firefox-trunk"; then
-
-    add_ppa "ubuntu-mozilla-daily/ppa" \
-        || print_error "Firefox Nightly (add PPA)"
-
-    update &> /dev/null \
-        || print_error "Firefox Nightly (resync package index files)"
-
-fi
-
-install_package "Firefox Nightly" "firefox-trunk"
